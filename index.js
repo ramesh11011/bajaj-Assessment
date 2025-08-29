@@ -97,7 +97,7 @@ app.post('/bfhl', (req, res) => {
 app.get('/', (req, res) => {
     res.status(200).json({ 
         "operation_code": 1,
-        "message": "API is running. Send a POST request to Bajaj Api with your data."
+        "message": "API is running..."
     });
 });
 
