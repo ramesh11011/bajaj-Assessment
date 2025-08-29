@@ -12,5 +12,13 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachitGupta06/bajaj_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RachitGupta06/bajaj_api/issues"
+  },
+  "homepage": "https://github.com/RachitGupta06/bajaj_api#readme"
 }
