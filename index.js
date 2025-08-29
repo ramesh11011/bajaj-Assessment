@@ -91,6 +91,16 @@ app.post('/bfhl', (req, res) => {
             "error": error.message 
         });
     }
+
+
+});
+
+
+app.get('/', (req, res) => {
+    res.status(200).json({ 
+        "operation_code": 1,
+        "message": "API is running. Send a POST request to /bfhl with your data."
+    });
 });
 
 // Start the server and listen for incoming requests on the specified port
